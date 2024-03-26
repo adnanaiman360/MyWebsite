@@ -159,7 +159,7 @@
 		$('.js-contact-btn').on('click', function(event) {
 			event.preventDefault();
 			$('html, body').animate({
-				scrollTop: $('#fh5co-consult').offset().top
+				scrollTop: $('#fh5co-about').offset().top
 			}, 1000);
 		});
 	});
